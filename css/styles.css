@@ -4,19 +4,15 @@
     height: 800px;
     width: 800px;
 }
-.column {
-    display: flex;
-    flex-direction: row;
-}
 .box {
     width: 100px;
     height: 100px;
-    border: 3px solid black;
+
 }
 
-.column div:nth-child(odd) {
-    background-color: black;
-}
-.column div:nth-child(even) {
+.container div:nth-child(odd) {
     background-color: wheat;
+}
+.container div:nth-child(even) {
+    background-color: black;
 }

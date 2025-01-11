@@ -14,15 +14,11 @@
     width: 100px;
     height: 100px;
 }
-.odd div:nth-child(odd) {
+.row:nth-child(odd) .box:nth-child(odd),
+.row:nth-child(even) .box:nth-child(even) {
     background-color: black;
 }
-.odd div:nth-child(even) {
+.row:nth-child(odd) .box:nth-child(even),
+.row:nth-child(even) .box:nth-child(odd) {
     background-color: wheat;
-}
-.even div:nth-child(odd) {
-    background-color: wheat;
-}
-.even div:nth-child(even) {
-    background-color: black;
 }
